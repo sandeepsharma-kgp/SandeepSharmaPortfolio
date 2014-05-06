@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.navigation
+{
+font-size:16px;
+position:fixed;
+text-transform:uppercase;
+left:350px;
+background-color:black;
+top:180px;
+z-index:0;
+}
+#bck
+{
+background-color:grey;
+position:absolute;
+left:0px;
+top:0px;
+z-index:-1;
+
+}
+#container
+{
+margin:0px 350px;
+background-color:white;;
+}
+.thumbnail 
+{
+float:left;
+width:95px;
+height:110px;
+margin:5px;
+}
+div.ex
+{
+width:220px;
+padding:110px;
+border:5px solid gray;
+margin:0px;
+}
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+
+float:left;
+}
+a
+{
+display:block;
+text-decoration:none;
+width:129px;
+background-color:light green;
+}
+a:link {color:white;}    /* unvisited link */
+a:visited {color:white;} /* visited link */
+a:hover {color:red;}   /* mouse over link */
+a:active {color:white;}  /* selected link */
+</style>
+<meta charset="utf-8" />
+<title>Sandeep Sharma-Portfolio</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+</head>
+
+<body>
+<div id="bck">
+	<div id="container" >
+
+
+<p class="imag"><a href="#"><img src="images/background.gif" alt="Sandeep logo" style="position:fixed;height:200px;width:645px;z-index:0;left:350px;;"/></a></p>
+
+<span class="navigation">
+
+<ul>
+	<li><a href="index1.html" target="iframes">__Home</a></li>
+	<li><a href="my-education.html" target="iframes">My Education</a></li>
+	<li><a href="my-skill.html" target="iframes">My Skills</a></li>
+	<li><a href="my-future.html" target="iframes">My Future</a></li>
+	<li><a href="about.html" target="iframes">About Me</a></li>
+</ul>
+</span>
+
+<div id="header" style="margin-top:0px; background-color:white;" >
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<iframe src="index1.html" name="iframes" width="645" height="700" frameborder="0"></frame>
+
+		</div>
+</div>
+</div>
+</body>
+
+</html>
